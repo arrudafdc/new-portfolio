@@ -1,0 +1,28 @@
+.footer-bg {
+  background: #222;
+}
+
+.footer {
+  height: 400px;
+  padding: 6rem 1rem;
+}
+
+.footer h2 {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 1rem;
+}
+
+.footer ul li {
+  margin-bottom: 0.7rem;
+}
+
+.footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
+}

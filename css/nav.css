@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  color: var(--black);
+  padding: 0 1rem;
+}
+
+.header h1 a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.header h1 a,
+.header p {
+  cursor: pointer;
+}
+
+.header h1 a:hover,
+.header p:hover {
+  color: var(--primary-color);
+}

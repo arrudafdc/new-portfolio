@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Source+Serif+4:ital,opsz@0,8..60;1,8..60&display=swap");
+
+@import "./utilities/reset.css";
+@import "./utilities/variables.css";
+@import "./utilities/components.css";
+
+@import "nav.css";
+@import "main.css";
+@import "works.css";
+@import "footer.css";
+@import "single-work.css";
+@import "sobre.css";

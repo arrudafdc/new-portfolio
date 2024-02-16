@@ -1,0 +1,80 @@
+.header-works {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  color: var(--black);
+  padding: 0 1rem;
+}
+
+.header-works p a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.header-works p {
+  cursor: pointer;
+}
+
+.header-works p a:hover {
+  color: var(--primary-color);
+}
+
+.single-work {
+  padding: 2rem 1rem;
+  margin-bottom: 6rem;
+}
+
+.single-work h1 {
+  font-family: "Source Serif Pro";
+  font-weight: bold;
+  font-size: 5rem;
+  color: var(--black);
+  margin-bottom: 1rem;
+}
+
+.single-work img {
+  border-radius: 20px;
+  margin-bottom: 2rem;
+}
+
+.single-work .resume {
+  font-size: 1.25rem;
+  line-height: 1.7rem;
+  max-width: 70%;
+  margin-bottom: 1rem;
+}
+
+.work-link {
+  margin-bottom: 3rem;
+}
+
+.work-link a {
+  color: var(--black);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.work-link a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 960px) {
+  .single-work {
+    border: none;
+  }
+  .single-work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .single-work h1 {
+    font-size: 3rem;
+  }
+  .single-work .resume {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    max-width: 90%;
+  }
+}
